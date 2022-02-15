@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="input.html" method="post">
+        
+
+        <fieldset>
+            <legend>Person data</legend>
+            <input name = "Name"type="text" placeholder="Name">
+            <input name = "Surname"type="text" placeholder="Surname">
+            <label for="checkbox">This is the checkbox</label>
+            <input name = "Checkbox" type="checkbox" >
+            <label for="male">Male</label> <input id="male"type="radio" name="gender">
+            <label for="female">Female</label> <input id="female"type="radio" name="gender">
+            <select name="favColor" id="">
+                <option value="B">
+                    Black
+                </option>
+                <option value="W">
+                    White
+                </option>
+                <option value="Y">
+                    Yellow
+                </option>
+                <option value="O">
+                    Orange
+                </option>
+                <option value="" disabled selected hidden>
+                    Favorite color
+                </option>
+            </select>
+        </fieldset>
+        <button>Save</button>
+    </form>
+</body>
+
+</html>
