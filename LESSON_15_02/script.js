@@ -1,0 +1,13 @@
+let a = 1;
+let b = 2121.3232;
+// let bigInt = 22222222 n;
+let specialNumber = 5E-1;
+console.log(specialNumber);
+a = 0.2;
+b=0.1;
+console.log((a+b) - 0.3 < Number.EPSILON);
+let myNumbet = Number("6434343");
+console.log(typeof(myNuber));
+myNumber = parseInt("74382993");
+myNumber = Number("384902,2883".replace(",", "."));
+console.log(myNumber);
